@@ -36,6 +36,7 @@ function closeBrowser() {
 async function main() {
   driver = await createDriver();
   await driver.manage().setTimeouts({ implicit: 0, pageLoad: 3000, script: 3000 });
+  await driver.manage().window().maximize();
   await openBrowser();
   await closeCookieBanner();
   await performSearch();
