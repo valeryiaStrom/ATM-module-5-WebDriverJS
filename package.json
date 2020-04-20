@@ -1,0 +1,23 @@
+{
+  "name": "atm-module-6-webdriverjs",
+  "version": "1.0.0",
+  "description": "webdriverjs testing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeryiaStrom/ATM-module-6-WebDriverJS.git"
+  },
+  "author": "Valeryia Strom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valeryiaStrom/ATM-module-6-WebDriverJS/issues"
+  },
+  "homepage": "https://github.com/valeryiaStrom/ATM-module-6-WebDriverJS#readme",
+  "devDependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "dependencies": {}
+}
